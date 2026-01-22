@@ -1,0 +1,160 @@
+Week1 Day3
+
+🔀 Conditional Statements 
+🧠 Breakout Session 
+🎛️ Switch Case  
+⛔ Break 
+🔁 For Loop 
+🧩 Breakout Session 
+
+
+ClassRoom : 1
+
+let num=0
+if num>0 -> positive
+else if num==0 -> Natural number
+else -> negative number
+
+
+SwitchCase: 
+
+The switch statement is used to perform different actions based on 
+different conditions,
+ as an alternative to multiple if...else if...else blocks.
+ Syntax:
+
+
+switch (expression) {
+  case value1:
+    // Code block
+    break;  // once condition satisfied end execution
+  case value2:
+    // Code block
+    break;
+  ...
+  default:
+    // Default code block
+}
+
+ex:
+
+let browserName ="edge"
+
+key & value Pair 
+-> key (browserName)
+-> value("ie")
+
+switch(browserName){
+
+case "edge":
+console.log("edge browser")
+break
+
+case "chrome":
+console.log("chrome browser")
+break
+
+default:
+console.log("No browser")
+}
+
+//output: chrome browser
+
+
+Looping Statements:
+
+for Statement: The for loop in JavaScript is used to iterate over a range 
+of values or to 
+repeat a block of code a certain number of times. It consists of three parts: 
+initialization, condition, and iteration expression. The loop continues as long as 
+the condition is true.
+
+
+Initialization – Executed once before the loop starts.
+
+Condition – Checked before every iteration; loop runs as long as it's true.
+
+Update – Executed after each loop iteration.
+
+Example:
+
+for(initialization;condition;iteration){
+
+}
+iteration:
+i++ -> post increment => i+1
+++i -> pre increment  => 1+i
+
+let num=10
+
+for(let i=0;i<=num;i++){
+console.log(i)
+}
+
+i=0;0<=10;0+1  => i=1
+i=1;1<=10;1+1  => i=2
+i=2;2<=10;2+1  => i=3
+.
+.
+.
+.
+.
+.
+.
+i=10;10<=10;10+1 =>i=11
+i=11;11<=10 -> false -> stop execution
+
+output:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+ 
+         Jump Statements:
+
+break Statement: The break statement is used to exit a loop prematurely. When encountered inside a loop,
+ it immediately terminates the loop, and the control is transferred to the statement following the loop.
+
+ for (int i = 0; i < 10; i++) {
+  //0,1,2,3,4,5
+    if (i == 5) {
+        break; // Exits the loop when i is 5
+    }
+    // Code inside the loop
+}
+
+
+continue Statement: The continue statement is used to skip the rest of the code inside a loop for 
+the current iteration and move on to the next iteration.
+
+for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        continue; // Skips the rest of the code for i=5 and continues with the next iteration
+    }
+    // Code inside the loop
+}
+//0,1,2,3,4,6,7,8,9
+
+switch case
+let day=4
+case-> monday, tuesday,wednesday, thursday, friday and default 
+ output -> thursday
+
+
+For loop
+
+ClassRoom: 2
+Input -> 30
+print Odd number 0 to 30
+use for loop
+use if condition
+print Value
