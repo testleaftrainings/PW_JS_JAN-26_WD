@@ -1,0 +1,91 @@
+
+week2.day1
+🕖 7:00 PM – 8:00 PM → Strings 🔤
+👥 8:00 PM – 8:15 PM → Breakout Session 💬
+☕ 8:15 PM – 8:25 PM → Break
+🧮 8:25 PM – 9:00 PM → Arrays 📚
+
+
+
+String:
+
+* its collection of Characters
+declare 2 types
+
+Type 1:-
+String Literal // store the value in String constant pool memory its part 
+heap memory
+let empname="Dilip" // 301
+let val="Dilip" //it will not assign to new memory
+
+Type 2:
+String Object // directly it store value inside heap memory 
+let comName= new String("Testleaf") //202
+let name1=new String("TestLeaf") //302
+
+Declaring a String:
+Single quotes -> '   '
+Double quotes ->"  "
+BackTicks ->  ` `
+
+let n1="Dilip @ 123"
+let n2='dilip'
+let n3=`dilip`
+
+Methods: 
+1.length -> find total number of characters
+index value -> start form 0
+console.log(n1.length) -> 5 ->0-4
+
+
+
+let empname="dilip"
+let targetChar='i'
+let count is 0
+for loop(){
+if(empname.charAt(i)===targetChar){
+count++ 
+}
+}
+print of i is presented
+
+
+
+Arrays:
+
+
+
+    Array --> collection of elements
+
+    store all the pdtname
+    all the price
+    collection of similar elements-->java
+    string -->"","",""
+    number-->15,01,12
+
+    js -->stores multiple elements of different datatype
+       -->array size is dynamic
+
+
+
+       let array=[23,45,65,78,23,90]
+
+       for(i=0;...){
+         for(j=i+1){
+            if(arr[i]==arr[j])
+            {
+               print the data
+            }
+         }
+       }
+
+
+classRoom:
+
+1. PrintDuplicate [56,78,90,23,90,76,43,56]
+2. data ["chrome",true,132.8]
+add index 5 -> webkit
+pop->
+use push -> firefox
+use shift ->
+use for..of to print value
