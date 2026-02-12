@@ -1,0 +1,25 @@
+day04
+
+
+Window Hadling :
+to handle multiple window 
+
+in Playwright we have to handle promises:
+
+create Promise -> till what acction need to perform('page')
+preform the action  -> click iphone 17 pro max 
+resolve the promise -> pass my controm from parent to child page
+
+child page -> whatever action we need to perform in child page we can do that and then close the child page and switch back to parent page
+
+
+swtich -> child window
+
+Classroom
+https://www.leafground.com/window.xhtml
+-> click on Open button
+-> switch to child page
+-> Child Page -> Enter Message
+-> close childpage
+-> click on open multiple
+
